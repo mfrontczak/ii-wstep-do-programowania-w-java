@@ -1,1 +1,1 @@
-# ii-wstep-do-programowania-w-java
+# Wstęp do programowania w języku Java
