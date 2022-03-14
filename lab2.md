@@ -30,7 +30,7 @@ public class Example2 {
 
 ### Metody klasy
 ```java
-public class Example2 {
+public class Example1 {
   public void sayHello(String name) {
     System.out.println("Hello " + name);
   }
@@ -38,7 +38,7 @@ public class Example2 {
 ```
 
 ```java
-public class Example3 {
+public class Example2 {
   public String makeText(String name) {
     return "Hello " + name;
   }
@@ -46,8 +46,9 @@ public class Example3 {
 ```
 
 ### Tworzenie klas
+Przykład z wykorzystaniem statycznej klasy.
 ```java
-public class Example3 {
+public class Example1 {
     private static class MyApp {
         public void sayHello() {
             System.out.println("Hello there!");
@@ -60,17 +61,68 @@ public class Example3 {
     }
 }
 ```
+Przykład klasy bez konstruktura.
+```java
+public class MyPoint {
+    // składowe
+    int x;
+    int y;
+}
+```
+
+Przykład klasy z konstruktorem.
+```java
+public class MyClass {
+    // składowe
+    String name;
+    public MyClass() {}
+    public MyClass(String name) {
+        this.name = name;
+    }
+}
+```
+
+#### Hermetyzacja klasy
+Hermetyzacja (enkapsulacja) polega na chowaniu (lub udostępnaniu) określonych składowych w danej klasie, 
+tak aby były widoczne tylko wewnątrz klasy lub w klasie zaprzyjaśnionej.
+```java
+public class MyClass {
+    // składowe
+    private String name;
+    public MyClass() {}
+    public MyClass(String name) {
+        this.name = name;
+    }
+    
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    public String getName() {
+        return name;
+    }
+}
+```
 
 ### Tworzenie tablic
+Zaalokowanie pamięci:
+```java
+  int[] numbers = new int[7];
+  char[] characters = new char[4];
+```
+
+Alokacja z przypisaniem wartości:
 ```java
   int[] numbers = {1,2,3,4,5,6,7};
+  char[] characters = {'a', 'b', 'c', 'd'};
 ```
+
 ### Zadania
 
-✏️ Stwórz metodę wyświetlającą prostokąt o wymiarach N x M.
+✏️ Stwórz metodę wyświetlającą tablicę o wymiarach N x M.
 
-✏️ Stwórz metodę zwracającą czy dany punkt znajduje się w prostokącie. 
+✏️ Stwórz metodę wyświetlającą informacje o klasie Animal.
+
+✏️ Stwórz metodę zwracającą czy dany punkt znajduje się w prostokącie - stwórz wszystkie potrzebne klasy i metody.
 
 ✏️ Zaimplementuj mrówkę Langtona.
-
-🏠 Znajdź reguły gry w życie i zaimplementuj ją.
