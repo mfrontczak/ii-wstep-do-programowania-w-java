@@ -97,6 +97,7 @@ Interfejs służy do zdeklarowania publicznych metod i stałych abstrakcyjnych, 
 Deklaracja:
 ```java
 public interface Speakable {
+    String LANGUAGE = "PL"; // <-> public final static String language = "PL";
     String saySomething(); // już jest to metoda publiczna i abstrakcyjna. 
 }
 ```
