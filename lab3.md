@@ -117,3 +117,6 @@ public class Person implements Speakable {
 
 ✏️ Zaproponuj i zdeklaruj interfejs `Moveable`, Utwórz nową klasę która będzie go implementować.
 
+✏️ Stwórz tablicę figur a następnie po nich przeiteruj i wyświetl rozmiar każdej z figur.
+
+
