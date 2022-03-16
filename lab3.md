@@ -41,7 +41,7 @@ public class Dog {
     String breed;
     Dog(String name, String breed) {
         super(name);
-        breed = breed;
+        this.breed = breed;
     }
 }
 ```    
