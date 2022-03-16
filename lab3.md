@@ -22,14 +22,26 @@ public class Example {
         Vector3D v3 = new Vector3D();
         v3.x = 10;
         v3.y = 15;
-        v.z = -10;
+        v3.z = -10;
     }
 }
 ```
 
 
 ### Wielodziedziczenie
-Brak 🥸
+Brak 😯
 
-## Kolekcje
+## Abstrakcyjne klasy i metody 
+**Metoda abstrakcyjną** nie posiada implementacji, jest jedynie deklaracją metody.
+
+```java
+abstract float getArea(); 
+```
+
+Klasa z zdefiniowaną metodą abstrakcyjną, staje się klasą abstrakcyjną.
+```java
+abstract class Figure {
+    abstract float getArea();
+}
+```
 
