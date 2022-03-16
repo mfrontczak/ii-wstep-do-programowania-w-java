@@ -37,7 +37,7 @@ public class Animal {
     }
 }
 
-public class Dog {
+public class Dog extends Aniaml {
     String breed;
     Dog(String name, String breed) {
         super(name);
