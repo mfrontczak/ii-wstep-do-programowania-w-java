@@ -27,6 +27,31 @@ public class Example {
 }
 ```
 
+Przykład z wywołaniem konstruktura klasy bazowej.
+
+```java
+public class Animal {
+    String name = "brak";
+    Animal(String name) {
+        this.name = name;
+    }
+}
+
+public class Dog {
+    String breed;
+    Dog(String name, String breed) {
+        super(name);
+        breed = breed;
+    }
+}
+```    
+
+### Zadania
+
+✏️ Stwórz klasę bazową `Vehicle` (ustal bazowe atrybuty i metody).
+
+✏️ Stwórz klasę `Car` dziedziczącą po Vehicle.
+
 
 ### Wielodziedziczenie
 Brak 😯
@@ -44,4 +69,51 @@ abstract class Figure {
     abstract float getArea();
 }
 ```
+
+```java
+class Circle extends Figure {
+    float r;
+    Circle(r) {
+        this.r = r;
+    }
+    
+    float getArea() {
+        return Math.PI * Math.pow(this.r);
+    }
+}
+```
+
+
+### Zadania
+
+✏️ Zaimplementuj klasę `Rectangle` i `Triangle` dziedziczącą po klasie `Figure`.
+
+✏️ Dodaj nową abstrakcyjną metodę `getCircumference` i zaimplementuj ją dla wszystkich rodzajów figur. 
+
+## Interfejsy
+
+Interfejs służy do zdeklarowania publicznych metod i stałych abstrakcyjnych, w tym celu używamy słowa kluczowego `interface`.
+
+Deklaracja:
+```java
+public interface Speakable {
+    String saySomething(); // już jest to metoda publiczna i abstrakcyjna. 
+}
+```
+Implementacja:
+```java
+public class Person implements Speakable {
+    public String saySomething() {
+        return "Hello";
+    }
+}
+```
+
+### Zadania
+
+✏️ Zamień klasę abstrakcyjną `Figure` na interfejs.
+
+✏️ Zaimplementuj interfejs `Figure3D`, Zaimplementuj klasę `Rectangle3D`.
+
+✏️ Zaproponuj i zdeklaruj interfejs `Moveable`, Utwórz nową klasę która będzie go implementować.
 
