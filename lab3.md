@@ -37,7 +37,7 @@ public class Animal {
     }
 }
 
-public class Dog extends Aniaml {
+public class Dog extends Animal {
     String breed;
     Dog(String name, String breed) {
         super(name);
@@ -73,12 +73,12 @@ abstract class Figure {
 ```java
 class Circle extends Figure {
     float r;
-    Circle(r) {
+    Circle(float r) {
         this.r = r;
     }
-    
+
     float getArea() {
-        return Math.PI * Math.pow(this.r);
+        return (float) (Math.PI * Math.pow(this.r, 2));
     }
 }
 ```
