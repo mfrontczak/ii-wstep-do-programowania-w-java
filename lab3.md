@@ -27,6 +27,12 @@ public class Example {
 }
 ```
 
+Do zainicjowania pól z klasy bazowej (nadklasy) wykorzystujemy 
+```java
+super(arg1, arg2, ...., argN);
+```
+Podana składnia wywoła konstruktor klasy bazowej, należy umieścić ją na samym początku wywołania konstruktora klasy pochodnej. 
+
 Przykład z wywołaniem konstruktura klasy bazowej.
 
 ```java
@@ -54,7 +60,8 @@ public class Dog extends Animal {
 
 
 ### Wielodziedziczenie
-Brak 😯
+
+Brak 😯. Problem ten jest posiada rozwiązanie w języku Java.
 
 ## Abstrakcyjne klasy i metody 
 **Metoda abstrakcyjną** nie posiada implementacji, jest jedynie deklaracją metody.
