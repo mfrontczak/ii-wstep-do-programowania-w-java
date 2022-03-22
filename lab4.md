@@ -14,15 +14,17 @@ Dostępne implementacje dla kolejek: `LinkedList`, `ArrayDeque`, `PriorityQueue`
 
 ##### Zadania
 
-✏️ Utwórz ArrayList z 1 000 000 losowych liczb. Zanotuj czas tworzenia listy.
+✏️ Utwórz `ArrayList` z 1 000 000 losowych liczb. Zanotuj czas tworzenia listy.
 
-✏️ Utwórz LinkedList z 1 000 000 losowych liczb. Zanotuj czas tworzenia listy.
+✏️ Utwórz `LinkedList` z 1 000 000 losowych liczb. Zanotuj czas tworzenia listy.
 
 ✏️ Porównaj czas dostępu do dowolnego elementu w obu listach.
 
 ✏️ Porównaj czas usuwania dowolnego elementu w obu listach.
 
 ✏️ Porównaj czas sprawdzenia czy dany element znajduje się w liście dla obu list.
+
+✏️ Wykonaj ponownie porównanie z klasą `Vector`.
 
 #### Set i Map
 
@@ -32,9 +34,9 @@ Dostępne implementacje dla map: `HashMap`, `TreeMap`, `LinkedHashMap`.
 
 ##### Zadania
 
-✏️ Utwórz HashSet z 1 000 000 losowych liczb. Zanotuj czas tworzenia zbioru.
+✏️ Utwórz `HashSet` z 1 000 000 losowych liczb. Zanotuj czas tworzenia zbioru.
 
-✏️ Utwórz TreeSet z 1 000 000 losowych liczb. Zanotuj czas tworzenia zbioru.
+✏️ Utwórz `TreeSet` z 1 000 000 losowych liczb. Zanotuj czas tworzenia zbioru.
 
 ✏️ Porównaj czas dostępu do dowolnego elementu w obu zbiorach.
 
@@ -42,3 +44,8 @@ Dostępne implementacje dla map: `HashMap`, `TreeMap`, `LinkedHashMap`.
 
 ✏️ Porównaj czas sprawdzenia czy dany element znajduje się w zbiorze dla obu zbiorów.
 
+### Zadania
+
+✏️ Zaimplementuj metodę przyjmującą dowolną listę i wyświetlającą jej elementy na ekranie.
+
+✏️ Utwórz tablicę dwu wymiarową (np. o wymiarach 3x3), zaimplementuj metodę wyświetlającą jej elementy w formie tabeli.
