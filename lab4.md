@@ -49,3 +49,5 @@ Dostępne implementacje dla map: `HashMap`, `TreeMap`, `LinkedHashMap`.
 ✏️ Zaimplementuj metodę przyjmującą dowolną listę i wyświetlającą jej elementy na ekranie.
 
 ✏️ Utwórz tablicę dwu wymiarową (np. o wymiarach 3x3), zaimplementuj metodę wyświetlającą jej elementy w formie tabeli.
+
+✏️ Wczytaj plik do rożnych implementacji zbiorów i wyświetl je na ekranie.
