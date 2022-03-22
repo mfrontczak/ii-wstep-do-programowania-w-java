@@ -44,6 +44,19 @@ Dostępne implementacje dla map: `HashMap`, `TreeMap`, `LinkedHashMap`.
 
 ✏️ Porównaj czas sprawdzenia czy dany element znajduje się w zbiorze dla obu zbiorów.
 
+
+#### Iterator
+Iterator jest obiektem klasy Iterator służącym do wykonywania iteracji na zbiorach danych oraz operacji na danym elemencie. 
+
+```java
+Iterator<T> iter = c.iterator();
+```
+gdzie:
+
+T - typ elementu kolekcji.
+
+c - obiekt klasy implementującej interfejs `Collection`.
+
 ### Zadania
 
 ✏️ Zaimplementuj metodę przyjmującą dowolną listę i wyświetlającą jej elementy na ekranie.
@@ -51,3 +64,9 @@ Dostępne implementacje dla map: `HashMap`, `TreeMap`, `LinkedHashMap`.
 ✏️ Utwórz tablicę dwu wymiarową (np. o wymiarach 3x3), zaimplementuj metodę wyświetlającą jej elementy w formie tabeli.
 
 ✏️ Wczytaj plik do rożnych implementacji zbiorów i wyświetl je na ekranie.
+
+✏️ Przeiteruj po dowolnej liście.
+
+✏️ Korzystając z iteratora usuń z listy co drugi element.
+
+✏️ Utwórz obiekt ArrayList wraz z zdeklarowanymi wartościami (Poszukaj o `Arrays.asList(...)`)
