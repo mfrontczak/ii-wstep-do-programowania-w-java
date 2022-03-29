@@ -70,6 +70,8 @@ l - obiekt klasy implementującej interfejs `List`.
 
 ✏️ Wczytaj plik do rożnych implementacji zbiorów i wyświetl je na ekranie.
 
+✏️ Zbuduj histogram z tekstu (https://www.gutenberg.org/cache/epub/67098/pg67098.txt lub dowolnego innego).
+
 ✏️ Znajdź różnicę między `iterator`'em a `listIterator`'em.
 
 ✏️ Przeiteruj po dowolnej liście.
