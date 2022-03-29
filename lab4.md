@@ -50,12 +50,17 @@ Iterator jest obiektem klasy Iterator służącym do wykonywania iteracji na zbi
 
 ```java
 Iterator<T> iter = c.iterator();
+
+ListIterator<T> listIter = l.listLterator();
 ```
+
 gdzie:
 
 T - typ elementu kolekcji.
 
 c - obiekt klasy implementującej interfejs `Collection`.
+
+l - obiekt klasy implementującej interfejs `List`.
 
 ### Zadania
 
@@ -64,6 +69,8 @@ c - obiekt klasy implementującej interfejs `Collection`.
 ✏️ Utwórz tablicę dwu wymiarową (np. o wymiarach 3x3), zaimplementuj metodę wyświetlającą jej elementy w formie tabeli.
 
 ✏️ Wczytaj plik do rożnych implementacji zbiorów i wyświetl je na ekranie.
+
+✏️ Znajdź różnicę między `iterator`'em a `listIterator`'em.
 
 ✏️ Przeiteruj po dowolnej liście.
 
