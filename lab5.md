@@ -108,4 +108,27 @@ public class Reader<T extends Text> {
 }
 ```
 
+```java
+public class Reader<T extends Text & Readable ...> {
+    private T t;
+    Reader(T t) {
+      this.t = t;
+    }
+    
+    void print() {
+      System.out.println(this.t.getText());
+    } 
+}
+```
 
+### Zadania
+
+✏️ Zaimplementuj metodę przyjmującą 3 parametry o dowolnym typie (liczbowy)  i zwraca ich sumę. 
+
+✏️ Zaimplementuj metodę sparametryzowaną przyjmującą tablicę, zwracającą jej ostatni i pierwszy element.
+
+✏️ Zaimplementuj klasę generyczną AnimalKingdom, ograniczającą typ do klas Animal, SeaCreature. (pamiętaj o dodaniu jakiś metod i stworzeniu klas).
+
+✏️ Utwórz proste klasę Book i Publisher. Zaimplementuj klasę Pair, przyjmującą dwa Typy w formacie (klucz-wartość). Utwórz kilka Par książek i Wydawców. 
+
+✏️ Rozbuduj klasę Pair o ograniczenie typu.
