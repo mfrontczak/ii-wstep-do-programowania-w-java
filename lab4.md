@@ -64,8 +64,6 @@ l - obiekt klasy implementującej interfejs `List`.
 
 ### Zadania
 
-✏️ Zaimplementuj metodę przyjmującą dowolną listę i wyświetlającą jej elementy na ekranie.
-
 ✏️ Utwórz tablicę dwu wymiarową (np. o wymiarach 3x3), zaimplementuj metodę wyświetlającą jej elementy w formie tabeli.
 
 ✏️ Wczytaj plik do rożnych implementacji zbiorów i wyświetl je na ekranie.
@@ -79,3 +77,5 @@ l - obiekt klasy implementującej interfejs `List`.
 ✏️ Korzystając z iteratora usuń z listy co drugi element.
 
 ✏️ Utwórz obiekt ArrayList wraz z zdeklarowanymi wartościami (Poszukaj o `Arrays.asList(...)`)
+
+✏️ Zaimplementuj metodę przyjmującą dowolną listę i wyświetlającą jej elementy na ekranie.
