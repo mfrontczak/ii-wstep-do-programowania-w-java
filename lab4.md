@@ -51,7 +51,7 @@ Iterator jest obiektem klasy Iterator służącym do wykonywania iteracji na zbi
 ```java
 Iterator<T> iter = c.iterator();
 
-ListIterator<T> listIter = l.listLterator();
+ListIterator<T> listIter = l.listIterator();
 ```
 
 gdzie:
