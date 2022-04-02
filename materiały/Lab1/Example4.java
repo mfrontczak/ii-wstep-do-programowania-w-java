@@ -1,6 +1,6 @@
 package pl.krakow.up;
 
-public class InstrukcjeWarunkowe {
+public class Petle {
     public static void main(String[] args) {
         int i = 0;
         while (i < 10) {
