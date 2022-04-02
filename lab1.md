@@ -1,3 +1,20 @@
-# Laboratorium 2
+# Laboratorium 1
 
-## Podstawowe typy danych
+## klasa (lab 2)
+
+## metoda (lab 2)
+
+## prymitywne typy danych (typy proste)
+
+## instrukcje warunkowe
+
+## pętle
+
+### while
+
+### do while
+
+### for
+
+### for each
+
