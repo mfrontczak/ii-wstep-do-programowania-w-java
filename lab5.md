@@ -132,3 +132,5 @@ public class Reader<T extends Text & Readable ...> {
 ✏️ Utwórz proste klasę Book i Publisher. Zaimplementuj klasę Pair, przyjmującą dwa Typy w formacie (klucz-wartość). Utwórz kilka Par książek i Wydawców. 
 
 ✏️ Rozbuduj klasę Pair o ograniczenie typu.
+
+✏️ Utwórz klasę Fridge która będzie klasą generyczną przyjmującą elementy dziedziczące po interfejsie Coolable, klasa Fridge powinna implementować tablicę przechowywującą rzeczy w lodówce, oraz potrzebne metody do obsługi lodówki 🧊.
