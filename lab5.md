@@ -121,11 +121,13 @@ public class Reader<T extends Text & Readable ...> {
 }
 ```
 
+### Dzedziczenie
+
+
+
 ### Zadania
 
 ✏️ Zaimplementuj metodę przyjmującą 3 parametry o dowolnym typie (liczbowy)  i zwraca ich sumę. 
-
-✏️ Zaimplementuj metodę sparametryzowaną przyjmującą tablicę, zwracającą jej ostatni i pierwszy element.
 
 ✏️ Zaimplementuj klasę generyczną AnimalKingdom, ograniczającą typ do klas Animal, SeaCreature. (pamiętaj o dodaniu jakiś metod i stworzeniu klas).
 
@@ -133,4 +135,5 @@ public class Reader<T extends Text & Readable ...> {
 
 ✏️ Rozbuduj klasę Pair o ograniczenie typu.
 
-✏️ Utwórz klasę Fridge która będzie klasą generyczną przyjmującą elementy dziedziczące po interfejsie Coolable, klasa Fridge powinna implementować tablicę przechowywującą rzeczy w lodówce, oraz potrzebne metody do obsługi lodówki 🧊.
+✏️ Utwórz klasę Fridge która będzie klasą generyczną przyjmującą elementy dziedziczące po interfejsie Coolable, klasa Fridge powinna implementować tablicę przechowywującą rzeczy w lodówce, oraz potrzebne metody do obsługi lodówki. Zaimplementuj klasę Food. Utwórz klasę Freezer dziedziczącą po klasie generycznej Fridge, ograniczyć przyjmowany typ o dodatkowy interfejs Freezable. Zaimplementuj odpowiednie metody do obsługi zamrażarki 🧊. 
+
