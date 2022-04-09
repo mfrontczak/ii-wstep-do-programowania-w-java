@@ -119,10 +119,18 @@ Alokacja z przypisaniem wartości:
 
 ### Zadania
 
+✏️ Znajdź informacje na temat hermetyzacji.
+
+✏️ Stwórz metodę obliczającą równanie kwadratowe i zwracającą wynik.
+
 ✏️ Stwórz metodę wyświetlającą tablicę o wymiarach N x M.
 
-✏️ Stwórz metodę wyświetlającą informacje o klasie Animal.
+✏️ Stwórz klasę Vehicle posiadającą atrybuty: `color`, `mileage`, `maxFuel`, `make`, `model`, `fuel`.
+
+✏️ Dodaj do klasy Vehicle metodę `drive(int distance)`. Metoda powinna zmodyfikować odpowiednio wartość `mileage` oraz `fuel`.
+
+✏️ Stwórz metodę wyświetlającą informacje o klasie Vehicle.
 
 ✏️ Stwórz metodę zwracającą czy dany punkt znajduje się w prostokącie - stwórz wszystkie potrzebne klasy i metody.
 
-✏️ Zaimplementuj mrówkę Langtona.
+✏️+📧 Znajdź informację na temat mrówki Langtona i zaimplementuj odpowiednią klasę. (proszę wysłać do następnego zjazdu).
