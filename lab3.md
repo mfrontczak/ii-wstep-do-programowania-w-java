@@ -61,7 +61,7 @@ public class Dog extends Animal {
 
 ### Wielodziedziczenie
 
-Brak 😯. Problem ten jest posiada rozwiązanie w języku Java.
+Brak 😯, nie da się dzieczyć po wielu klasach. Problem ten jednak posiada rozwiązanie w języku Java.
 
 ## Abstrakcyjne klasy i metody 
 **Metoda abstrakcyjną** nie posiada implementacji, jest jedynie deklaracją metody.
