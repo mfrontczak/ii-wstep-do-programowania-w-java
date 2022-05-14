@@ -9,3 +9,4 @@
 - [Laboratorium 6](lab6.md)
 - [Laboratorium 7](lab7.md)
 - [Laboratorium 8](lab8.md)
+- [Laboratorium 9](lab9.md)
