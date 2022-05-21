@@ -53,7 +53,7 @@ public class PerfCollections {
 
 
         final long start8 = System.currentTimeMillis();
-        for(int i = 0; i < N; i++) {
+        for(int i = L; i < H; i++) {
             v.get(i);
         }
         final long end8 = System.currentTimeMillis();
