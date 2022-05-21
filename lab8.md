@@ -11,7 +11,7 @@ Przykład 1:
  
  Przykład 2:
  ```java
- public class Main {
+ public class LambdaExample1 {
     public static void main(String[] args) {
         List<String> streets = Arrays.asList("Podchorazych", "Podbrzezie", "Krolewska", "Karmelicka", "Studencka", "Ingardena");
         streets.forEach( street -> System.out.println("Uczelnia ma budynek przy ulicy " + street) );
@@ -21,7 +21,7 @@ Przykład 1:
  
  Przykład 3:
  ```java
- public class Main {
+ public class LambdaExample2 {
     public static void main(String[] args) {
         List<String> streets = Arrays.asList("Podchorazych", "Podbrzezie", "Krolewska", "Karmelicka", "Studencka", "Ingardena");
         Collections.sort(streets, (String o1, String o2) -> o1.compareToIgnoreCase(o2));
@@ -31,7 +31,7 @@ Przykład 1:
  
  Przykład 4:
  ```java
- public class Main {
+ public class LambdaExample3 {
     public static void main(String[] args) {
         List<String> streets = Arrays.asList("Podchorazych", "Podbrzezie", "Krolewska", "Karmelicka", "Studencka", "Ingardena");
         Collections.sort(streets, new Comparator<String>() {
@@ -66,7 +66,7 @@ public class Animal implements Speak {
 ```
 
 ```java
-public class Main {
+public class AnonymousClassExample {
     public static void main(String[] args) {
         Animal a = new Animal();
 
@@ -105,7 +105,7 @@ public class Main {
 
 Niestety powyższy sposób działa jedynie w wypadku kiedy interfejs udostępnia jedną metodą. W celu zapewnienia, że nasz interfejs spełnia to wymaganie używamy dekoratora `@FunctionalInterface`.
   
- W javie istnieje już interfejs funkcyjny `Consumer` posiadający metodę `accept`. Przyjmuje ona jeden parametr oraz nie zwraca żadnej wartości.
+W javie istnieje już interfejs funkcyjny `Consumer` posiadający metodę `accept`. Przyjmuje ona jeden parametr oraz nie zwraca żadnej wartości.
  
  ```java
  @FunctionalInterface
