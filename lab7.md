@@ -14,7 +14,7 @@ try {
 ```
 Zmienna *exc* jest obiektem klasy wyjątku który udostępnia następujące metody:
 ```java
-void pintStackTrace()
+void printStackTrace()
 String getMessage()
 String toString()
 Throwable getCause()
