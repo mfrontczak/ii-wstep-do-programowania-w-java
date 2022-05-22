@@ -129,7 +129,7 @@ public class Reader<T extends Text & Readable ...> {
 
 ✏️ Zaimplementuj metodę przyjmującą 3 parametry o dowolnym typie (liczbowy)  i zwraca ich sumę. 
 
-✏️ Zaimplementuj klasę generyczną AnimalKingdom, ograniczającą typ do klas Animal, SeaCreature. (pamiętaj o dodaniu jakiś metod i stworzeniu klas).
+✏️ Zaimplementuj klasę generyczną AnimalKingdom, ograniczającą typ do klas Animal. (pamiętaj o dodaniu jakiś metod i stworzeniu klas).
 
 ✏️ Utwórz proste klasę Book i Publisher. Zaimplementuj klasę Pair, przyjmującą dwa Typy w formacie (klucz-wartość). Utwórz kilka Par książek i Wydawców. 
 
